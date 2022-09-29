@@ -155,13 +155,20 @@ buybtn.addEventListener('click',function(){
     }
     if(telephone.money>moneys.innerHTML){
         btn3.style.display = 'none';
+        btn4.style.display = 'none';
+    }
+    if(television.money>moneys.innerHTML){
+        btn2.style.display = 'none';
+        btn3.style.display = 'none';
+        btn4.style.display = 'none';
     }
     if(mouse.money>moneys.innerHTML){
-        btn2.style.display = 'none';
-    }
-    if(telephone.money>moneys.innerHTML){
         btn1.style.display = 'none';
+        btn2.style.display = 'none';
+        btn3.style.display = 'none';
+        btn4.style.display = 'none';
     };
+
 
    
 });
